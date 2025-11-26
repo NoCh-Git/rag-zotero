@@ -1,0 +1,29 @@
+# Ignore environment files
+.env
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Vector databases (can be regenerated)
+vector_databases/
+
+# Ignore files from pdfs directory
+documents/*
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
